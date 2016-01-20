@@ -32,8 +32,8 @@
     [super viewDidLoad];
     Car *myCar = [[Car alloc] initWithName:@"Porshe" speed:100];
     Driver *Valentin = [[Driver alloc] initWithSurname:@"Valentin" age:30 salary:200];
-    [Valentin addAge:20];
-    [Valentin addSalary:200];
+    [valentin addAge:20];
+    [valentin addSalary:200];
     [myCar addSpeed:20];
     [Car loveCar:myCar];
     
